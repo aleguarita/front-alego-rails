@@ -1,0 +1,29 @@
+// =============================================================================
+// CORES DE STATUS
+// =============================================================================
+// Framework da Assembleia Legislativa
+// Autor: Alessandro Guarita
+// -----------------------------------------------------------------------------
+// cores_status.scss
+// Criado em: 20/10/2015
+// -----------------------------------------------------------------------------
+// Aqui ficam as cores do status e cores básicas do sistema
+// -----------------------------------------------------------------------------
+// CHANGELOG:
+// 13/04/2016 | Eliminada $paleta-padrao que agora faz parte de $paleta
+// 							Alterado $cor-status puxando de $paleta
+// 20/10/2015 | Criado o arquivo
+// ==============================================================================
+
+// =============================================================================
+// ESTADOS DO SISTEMA
+// =============================================================================
+$cor-status: (
+	erro: paleta(erro),
+	urgente: paleta(erro),
+	sucesso: paleta(ok),
+	ok: paleta(ok),
+	alerta: paleta(alerta),
+	aviso: paleta(alerta),
+	notice: paleta(cinza, claro, 30%),
+);
