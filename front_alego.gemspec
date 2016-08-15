@@ -6,8 +6,8 @@ require 'front_alego/version'
 Gem::Specification.new do |spec|
   spec.name          = "front_alego"
   spec.version       = FrontAlego::VERSION
-  spec.authors       = ["Otávio Gaião"]
-  spec.email         = ["otaviogaiao@gmail.com"]
+  spec.authors       = ["Alessandro Guarita"]
+  spec.email         = ["alessandro.guarita@al.go.leg.br"]
 
   spec.summary       = %q{Gem que encapsula o framework frontAlego}
   #spec.homepage      = "www.al.go.leg.br"

@@ -15,16 +15,15 @@ gem 'front_alego'
 e então execute:
 
     $ bundle install
-    
+
 depois adicione a seguinte linha ao seu application.scss:
 
 ```
-@import "config/base";
+@import "config/front-alego";
 ```
+
+Copie a pasta "config", "extra", e "views" existentes no Front-Alego para a pasta `assets/stylesheets`
 
 ## Uso
 
 TODO: Write usage instructions here
-
-
-
