@@ -1,9 +1,14 @@
 module FrontAlego
-  VERSION = "1.0.1"
+  VERSION = "1.1.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.1.0 - Acréscimo da classe .label e da possibilidade de utilizar a tag label
+#         como elemento pai do input (ao invés do div)
+#         Outros ajustes menores:
+#         * Alteração no padding da classe .form__ico
+#         * Alteração na imagem da lupa em ico.svg
 # 1.0.1 - Pequenas correções:
 #         * retirado aviso de incompatibilidade com uso de unquote()
 #         * retirada a cor cinza da zebra da tabela tipo-1
