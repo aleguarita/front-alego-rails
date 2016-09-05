@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.1.2"
+  VERSION = "1.1.3"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.1.3 - Nova forma de trabalhar os botões (através de mixin)
 # 1.1.2 - A modal estava com mouse inativo
 # 1.1.1 - Faltou o .label no form-texto
 # 1.1.0 - Acréscimo da classe .label e da possibilidade de utilizar a tag label
