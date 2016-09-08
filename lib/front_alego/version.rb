@@ -1,9 +1,13 @@
 module FrontAlego
-  VERSION = "1.1.3"
+  VERSION = "1.1.4"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.1.4 - Pequenos ajustes nos mixins que geram classes
+#         Deletado arquivo de retrocompatilidade dos botões
+#         Ajuste no botão para evitar incosistência com o :hover quando ele é link
+#         Simplificação nas cores das tabelas (retirado borda-clara e borda-escura do mapa de cores). Agora clarea ou escurece conforme a cor da borda
 # 1.1.3 - Nova forma de trabalhar os botões (através de mixin)
 # 1.1.2 - A modal estava com mouse inativo
 # 1.1.1 - Faltou o .label no form-texto
