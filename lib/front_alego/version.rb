@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.1.4"
+  VERSION = "1.2.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.2.0 - Acrescentado dois ícones: compartilhar e compartilhar-1
 # 1.1.4 - Pequenos ajustes nos mixins que geram classes
 #         Deletado arquivo de retrocompatilidade dos botões
 #         Ajuste no botão para evitar incosistência com o :hover quando ele é link
