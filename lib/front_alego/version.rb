@@ -1,9 +1,11 @@
 module FrontAlego
-  VERSION = "1.2.0"
+  VERSION = "1.2.1"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.3.0 - Acrescentado elementos da paginação para angular
+#         Acrescentada opção de arredondar a paginação
 # 1.2.0 - Acrescentado dois ícones: compartilhar e compartilhar-1
 # 1.1.4 - Pequenos ajustes nos mixins que geram classes
 #         Deletado arquivo de retrocompatilidade dos botões
