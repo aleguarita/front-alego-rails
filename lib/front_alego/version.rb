@@ -1,9 +1,12 @@
 module FrontAlego
-  VERSION = "1.2.1"
+  VERSION = "1.4.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.4.0 - Os botões dentro de .tab--form ocupam a largura toda da célula
+#         A classe .label fica marcada corretamente quando aparecer num checkbos do tipo-3
+#         Nova opção de classe para a formatação de grupos de formulários: .pos-x (acrescenta um espaço à direita de um .field-x).
 # 1.3.0 - Acrescentado elementos da paginação para angular
 #         Acrescentada opção de arredondar a paginação
 # 1.2.0 - Acrescentado dois ícones: compartilhar e compartilhar-1
