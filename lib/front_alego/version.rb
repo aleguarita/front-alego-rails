@@ -1,9 +1,14 @@
 module FrontAlego
-  VERSION = "1.4.0"
+  VERSION = "1.5.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.5.0 - Novos ícones SVG: #atualizar, #binoculo, #card, #folheto, #lista, #ordenar-az, #ordenar-za.
+#         Inclusão do dir-pagination-controls na formatação da paginação
+#         Inclusão de Barra de Ferramentas
+#         Inclusão de uma nova classe para tabela .tab--card
+#         Inclusão da tab--mutante que pode alternar entre tabela e cards
 # 1.4.0 - Os botões dentro de .tab--form ocupam a largura toda da célula
 #         A classe .label fica marcada corretamente quando aparecer num checkbos do tipo-3
 #         Nova opção de classe para a formatação de grupos de formulários: .pos-x (acrescenta um espaço à direita de um .field-x).
