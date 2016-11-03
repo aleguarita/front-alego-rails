@@ -4,6 +4,7 @@ end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.5.1 - Correção no campo de formulário obrigatório
 # 1.5.0 - Novos ícones SVG: #atualizar, #binoculo, #card, #folheto, #lista, #ordenar-az, #ordenar-za.
 #         Inclusão do dir-pagination-controls na formatação da paginação
 #         Inclusão de Barra de Ferramentas
