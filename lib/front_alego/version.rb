@@ -1,10 +1,10 @@
 module FrontAlego
-  VERSION = "1.5.1a"
+  VERSION = "1.5.2"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
-# 1.5.1a - Correção no campo de formulário obrigatório
+# 1.5.2 - Correção no campo de formulário obrigatório
 # 1.5.1  - Correção no campo de formulário obrigatório
 # 1.5.0  - Novos ícones SVG: #atualizar, #binoculo, #card, #folheto, #lista, #ordenar-az, #ordenar-za.
 #          Inclusão do dir-pagination-controls na formatação da paginação
