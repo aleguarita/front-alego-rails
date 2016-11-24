@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.5.3"
+  VERSION = "1.5.4"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.5.4  - Ajustes relacionados à W3C
 # 1.5.3  - Inclusão de !important (shame on you) nas classes de margem (como a classe pode ser aplicada ou não, isso serve para substituir resets de margem como no caso do :first-child)
 # 1.5.2  - Correção no campo de formulário obrigatório
 # 1.5.1  - Correção no campo de formulário obrigatório
