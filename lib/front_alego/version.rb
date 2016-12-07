@@ -1,9 +1,16 @@
 module FrontAlego
-  VERSION = "1.5.5"
+  VERSION = "1.6.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.6.0  - Datepicker: formatação do <label> igual ao do link, para melhor consistência da tabela
+#          Formulários:
+#          * melhor centralização do ícone em .form__ico;
+#          * inclusão de transparência para itens de formulário desabilitados;
+#          * centralização dos elementos de formulário por cima;
+#          * ajuste dos campos para quando visualizados no Linux
+#          Novidade: inclusão de .form--erro e .form--erro__bloco para indicar erros no formulário quando usando angular
 # 1.5.5  - Desfeitas alterações anteriores, pois alterava visualização do formulário
 # 1.5.4  - Ajustes relacionados à W3C
 # 1.5.3  - Inclusão de !important (shame on you) nas classes de margem (como a classe pode ser aplicada ou não, isso serve para substituir resets de margem como no caso do :first-child)
