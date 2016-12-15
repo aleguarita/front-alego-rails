@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.6.1"
+  VERSION = "1.7.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.7.0  - Inclusão da formatação de inputs de arquivo
 # 1.6.1  - Corrigida ausência de linha nos botões de busca em formulário tipo-1 e tipo-2
 # 1.6.0  - Datepicker: formatação do <label> igual ao do link, para melhor consistência da tabela
 #          Formulários:
