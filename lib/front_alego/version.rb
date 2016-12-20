@@ -1,9 +1,11 @@
 module FrontAlego
-  VERSION = "1.7.1"
+  VERSION = "1.7.2"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.7.2  - Inclusão da diretiva header-tabela-mutante
+#          Inclusão da diretiva autocomplete
 # 1.7.1  - Alteração da pasta de javascripts
 # 1.7.0  - Inclusão da formatação de inputs de arquivo
 # 1.6.1  - Corrigida ausência de linha nos botões de busca em formulário tipo-1 e tipo-2
