@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.8.0"
+  VERSION = "1.8.1"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.8.1 - Incluída diretiva de menu (formatação vai sair na versão 1.9.0)
 # 1.8.0 - Inclusão da diretiva header-tabela-mutante
 #         Inclusão da diretiva autocomplete
 # 1.7.1 - Alteração da pasta de javascripts
