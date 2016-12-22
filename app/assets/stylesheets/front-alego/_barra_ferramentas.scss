@@ -4,7 +4,6 @@
 BARRA DE FERRAMENTAS
 ================================================================================
 */
-}
 
 // =============================================================================
 // Framework da Assembleia Legislativa
@@ -12,141 +11,110 @@ BARRA DE FERRAMENTAS
 // -----------------------------------------------------------------------------
 // barra-ferramentas.scss
 // Criado em: 27/09/2016
+// Alterado em: 21/12/2016
 // -----------------------------------------------------------------------------
 // Definições padrão de barra de ferramentas
 // -----------------------------------------------------------------------------
 // Changelog
+// 21/12/2016 | Reformulado para adequar à diretiva
 // 27/09/2016 | Criado o arquivo
 // =============================================================================
 
 // =============================================================================
 // CONFIG
 // =============================================================================
-$barra-ferramentas-tipo: tipo-1 !default; // 2 tipos
-$barra-ferramentas-fundo: sim !default;
+$barra-ferramentas-titulo: sem-serifa !default; // sem-serifa ou serifa
+$barra-ferramentas-margem: $margem !default;
+$barra-ferramentas-icone-acao: igual !default;
+
+$barra-ferramentas-titulo-tipo: if($barra-ferramentas-titulo == "sem-serifa", $fonte-sem-serifa, $fonte-serifa);
 
 // =============================================================================
-// MIXIN | BASE
+// CLASSE
 // =============================================================================
-@mixin barra-ferramentas-base($tag: basico) {
-  @if $tag == basico {
+.barra-ferramentas {
+  display: flex;
+  width: 100%;
+  background: cor(barra-ferramentas, fundo);
+  align-items: center;
+
+  // ---------------------------------------------------------------------------
+  // FILHOS DIRETOS
+  // ---------------------------------------------------------------------------
+  > * {
+  }
+
+  // ---------------------------------------------------------------------------
+  // TÍTULO
+  // ---------------------------------------------------------------------------
+  &__titulo {
+    margin: 0;
+    margin-left: $barra-ferramentas-margem;
+    font-family: $barra-ferramentas-titulo-tipo;
+    line-height: 1.4;
+  }
+
+  // ---------------------------------------------------------------------------
+  // AÇÃO
+  // ---------------------------------------------------------------------------
+  &__acao {
     display: flex;
-    width: 100%;
-    margin-bottom: 1em;
     align-items: center;
+    align-self: stretch;
+    padding: $pd;
+    background: cor(barra-ferramentas, fundo-bt);
+    color: cor(barra-ferramentas, texto-bt);
+    cursor: pointer;
+    transition: $transition;
     // -------------------------------------------------------------------------
-    // FUNDO
+    // AÇÃO | HOVER
     // -------------------------------------------------------------------------
-    @if $barra-ferramentas-fundo == sim {
-      padding: $pd;
-      background: if($form-tipo == tipo-3, tint(cor(formulario, fundo), 25), cor(formulario, fundo));
-      @if $form-tipo == tipo-3 {
-        border: $borda-form $borda-form-tipo;
-      }
-    }
-    // -------------------------------------------------------------------------
-    // FILHOS DIRETOS
-    // -------------------------------------------------------------------------
-    > * {
-      min-height: inherit; // para resolver alinhamento dos itens
-      align-self: stretch;
-      padding-bottom: 0;
-      > :only-child {
-        align-self: inherit;
-      }
-      // FILHO + FILHO
-      + * {
-        margin-left: $margem;
-      }
-      // PRIMEIRO ITEM
-      &:first-child {
-        padding-left: 0;
-      }
+    &:hover {
+      background: cor(barra-ferramentas, fundo-bt-hover);
+      color: cor(barra-ferramentas, texto-bt-hover);
     }
     // -------------------------------------------------------------------------
-    // AÇÕES
+    // AÇÃO | ATIVO
     // -------------------------------------------------------------------------
-    &__acoes {
-      flex: 1;
-      display: flex;
-      align-self: stretch;
-      justify-content: flex-end;
-      > * + * {
-        margin-left: $margem / 2;
-      }
+    &.ativo {
+      background: cor(barra-ferramentas, texto-bt-hover);
+      color: cor(barra-ferramentas, fundo-bt-hover);
     }
-  }
-  // ---------------------------------------------------------------------------
-  // SEPARADOR
-  // ---------------------------------------------------------------------------
-  @if $tag == separador {
-    &__separador {
-      margin-left: $margem;
-      margin-right: $margem / 2;
-      @content;
-    }
-  }
-  // ---------------------------------------------------------------------------
-  // ÍCONES
-  // ---------------------------------------------------------------------------
-  @if $tag == icones {
-    @at-root {
-      .form-icones {
-        @include display-flex;
-        @include align-items(center);
-        // ---------------------------------------------------------------------
-        > * {
-          cursor: pointer;
-          @content;
-          + * {
-            margin-left: $margem;
-          }
-        }
-        // ---------------------------------------------------------------------
-      }
-    }
-  }
-}
-// =============================================================================
-// MIXIN FINAL
-// =============================================================================
-@mixin barra-ferramentas($tipo) {
-  @include barra-ferramentas-base;
-  // ---------------------------------------------------------------------------
-  // TIPO 1
-  // ---------------------------------------------------------------------------
-  @if $tipo == tipo-1 {
-    @include barra-ferramentas-base(separador) {
-      padding: 0 $pd;
-      border-left: $borda-form $borda-form-tipo;
-      border-right: $borda-form $borda-form-tipo;
-      &:first-child {
-        padding-left: 0;
-        margin-left: 0;
-        border-left-width: 0;
-      }
-      &:last-child {
-        padding-right: 0;
-        margin-right: 0;
-        border-right-width: 0;
-      }
-    }
-    @include barra-ferramentas-base(icones) {
-      color: cor(formulario, label);
-    }
-  }
-  // ---------------------------------------------------------------------------
-  // TIPO 2
-  // ---------------------------------------------------------------------------
-  @if $tipo == tipo-2 {
 
+    // -------------------------------------------------------------------------
+    // AÇÃO | VOLTAR
+    // -------------------------------------------------------------------------
+    &.voltar {
+
+    }
   }
+
+  // ---------------------------------------------------------------------------
+  // BUSCA
+  // ---------------------------------------------------------------------------
+  &__busca {
+    margin-left: $barra-ferramentas-margem;
+  }
+
+  // ---------------------------------------------------------------------------
+  // TABELA MUTANTE
+  // ---------------------------------------------------------------------------
+  &__tabela-mutante {
+    margin-left: $barra-ferramentas-margem;
+    flex: 1;
+    display: flex;
+    align-self: stretch;
+  }
+
+  // ---------------------------------------------------------------------------
+  // ÍCONE
+  // ---------------------------------------------------------------------------
+  &__ico {
+    @if $barra-ferramentas-icone-acao == igual {
+      @extend .barra-ferramentas__acao;
+    }
+  }
+
 }
-// =============================================================================
-// CLASSES MONTADAS
-// =============================================================================
-@if index($uso-classes, barra-ferramentas) {
-  .barra-ferramentas {
-    @include barra-ferramentas($barra-ferramentas-tipo);
-  }
+
 }
