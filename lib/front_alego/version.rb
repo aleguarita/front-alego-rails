@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.9.2"
+  VERSION = "1.9.3"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.9.3 - Ajuste no autocomplete e barra de ferramentas
 # 1.9.2 - Alteração de erro de cores
 # 1.9.0 - Formatação das diretivas de menu e header-tabela-mutante (barra de ferramentas)
 # 1.8.1 - Incluída diretiva de menu (formatação vai sair na versão 1.9.0)
