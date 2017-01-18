@@ -18,7 +18,6 @@
                 else {
                   fileName = e.target.value.split( '\\' ).pop();
               }
-              console.log(fileName);
 
               if(fileName) {
                   $(label).html(fileName);
