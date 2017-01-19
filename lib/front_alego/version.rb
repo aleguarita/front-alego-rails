@@ -1,9 +1,15 @@
 module FrontAlego
-  VERSION = "1.9.4"
+  VERSION = "1.11.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.11.0 - Inclusão da animação no menu
+#          Novo tipo de tabela (tipo-3)
+#          Ajustes nas tabelas
+#          Diretiva de upload de arquivo
+#          Alteração da forma de chamar as fontes
+# 1.10.0 - Inclusão da diretiva de menu
 # 1.9.4 - Correção do nome do placeholder de barra de ferramentas
 # 1.9.3 - Ajuste no autocomplete e barra de ferramentas
 # 1.9.2 - Alteração de erro de cores
