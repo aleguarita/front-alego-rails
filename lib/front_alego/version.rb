@@ -1,10 +1,11 @@
 module FrontAlego
-  VERSION = "1.11.3"
+  VERSION = "1.11.4"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
-# 1.11.3 - Nãof funcionou a fonte pelo Ruby
+# 1.11.4 - Novo retorno de erros de cores: se não tiver o tema definido aparece ciano e se não tiver a cor definida aparece magenta
+# 1.11.3 - Não funcionou a fonte pelo Ruby
 # 1.11.2 - Fonte para Ruby
 # 1.11.1 - Inclusão de fallback de tipografia
 # 1.11.0 - Inclusão da animação no menu
