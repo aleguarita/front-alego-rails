@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.11.0"
+  VERSION = "1.11.1"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.11.1 - Inclusão de fallback de tipografia
 # 1.11.0 - Inclusão da animação no menu
 #          Novo tipo de tabela (tipo-3)
 #          Ajustes nas tabelas
