@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.11.2"
+  VERSION = "1.11.3"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.11.3 - Nãof funcionou a fonte pelo Ruby
 # 1.11.2 - Fonte para Ruby
 # 1.11.1 - Inclusão de fallback de tipografia
 # 1.11.0 - Inclusão da animação no menu
