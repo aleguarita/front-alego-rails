@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.11.7"
+  VERSION = "1.11.8"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.11.8 - Arrumado o arquivo de fontes para o padrão correto do rails
 # 1.11.7 - Tirada funções das variáveis
 # 1.11.6 - Temporiamente restaurado o arquivo de fonte da GEM
 #          Inclusão de variáveis no fallback
