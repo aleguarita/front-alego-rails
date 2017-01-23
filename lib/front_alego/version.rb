@@ -1,9 +1,11 @@
 module FrontAlego
-  VERSION = "1.11.5"
+  VERSION = "1.11.6"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.11.6 - Temporiamente restaurado o arquivo de fonte da GEM
+#          Inclusão de variáveis no fallback
 # 1.11.5 - Alterada a forma de puxar as fontes no caso do rails
 # 1.11.4 - Novo retorno de erros de cores: se não tiver o tema definido aparece ciano e se não tiver a cor definida aparece magenta
 # 1.11.3 - Não funcionou a fonte pelo Ruby
