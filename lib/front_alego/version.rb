@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.11.6"
+  VERSION = "1.11.7"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.11.7 - Tirada funções das variáveis
 # 1.11.6 - Temporiamente restaurado o arquivo de fonte da GEM
 #          Inclusão de variáveis no fallback
 #          Inclusão do fallback dentro do primeiro arquivo do front-alego (breakpoints)
