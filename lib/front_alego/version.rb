@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.11.10"
+  VERSION = "1.11.11"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.11.11 - Correção do autocomplete
 # 1.11.10 - Diretiva de menu atualizada
 # 1.11.9 - Diretiva de menu atualizada
 # 1.11.8 - Arrumado o arquivo de fontes para o padrão correto do rails
