@@ -8,7 +8,7 @@
                 autocompleteconfig: '=',
             },
             link: function (scope, elem, attr, ctrl) {
-
+                console.log('teste');
 
                 scope.$watch('autocompleteconfig', function (value) {
 
@@ -25,12 +25,15 @@
                
 
                 function select(event, ui) {
+                    console.log('select');
                     ctrl.$setViewValue(ui.item.id);
                 }
 
                 function change(ev, ui) {
+                    console.log('change');
                     if (!ui.item) {
                         $(this).val("");
+                        ctrl.$setViewValue(null);
                     }
                 }
             }

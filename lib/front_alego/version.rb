@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.12.2"
+  VERSION = "1.12.3"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.12.3 - Correção do autocomplete
 # 1.12.2 - Inclusão do ico.svg
 #          Retirado fundo branco dos selects
 # 1.12.1 - Removido arquivo com menos nome fontes_rails
