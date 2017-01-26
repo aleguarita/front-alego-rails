@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.12.0"
+  VERSION = "1.12.1"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.12.1 - Removido arquivo com menos nome fontes_rails
 # 1.12.0 - Arquivos separados de importação para gem ou para arquivo local
 #          Inclusão de arquivo de fallback no primeiro arquivo importado (breakpoints)
 #          Inclusão de dois novos símbolos SVG: #mais-1 e #menos-1
