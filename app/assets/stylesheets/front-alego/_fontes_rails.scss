@@ -8,15 +8,17 @@ FONTES
 // Framework da Assembleia Legislativa
 // Autor: Alessandro Guarita
 // -----------------------------------------------------------------------------
-// fonts.scss
+// fonts_rails.scss
 // Criado em: 13/01/2015
-// Última modificação em: 19/01/2017
+// Última modificação em: 23/01/2017
 // -----------------------------------------------------------------------------
 // Este arquivo puxa as fontes do sistema.
 // No final são definidas as variáveis padrão pelos tipos de fonte (serifa,
 // símbolo, etc)
 // -----------------------------------------------------------------------------
 // Changelog:
+// 23/01/2017 | Retirada as variáveis
+//              Alterada o caminho para uso de font-path
 // 19/01/2017 | Inclusão do estado "default" nas variáveis
 // 11/05/2016 | Mudado a forma como o condicional trabalha com a escolha de
 //              fontes

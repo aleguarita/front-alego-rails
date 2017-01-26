@@ -1,9 +1,13 @@
 module FrontAlego
-  VERSION = "1.11.11"
+  VERSION = "1.12.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.12.0 - Arquivos separados de importação para gem ou para arquivo local
+#          Inclusão de arquivo de fallback no primeiro arquivo importado (breakpoints)
+#          Inclusão de dois novos símbolos SVG: #mais-1 e #menos-1
+#          Inclusão de loadings com puro CSS e três tipos
 # 1.11.11 - Correção do autocomplete
 # 1.11.10 - Diretiva de menu atualizada
 # 1.11.9 - Diretiva de menu atualizada
