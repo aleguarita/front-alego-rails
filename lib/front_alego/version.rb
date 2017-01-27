@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.12.3"
+  VERSION = "1.12.4"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.12.4 - Inclusão de novo loading.svg
 # 1.12.3 - Correção do autocomplete
 # 1.12.2 - Inclusão do ico.svg
 #          Retirado fundo branco dos selects
