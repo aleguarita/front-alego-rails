@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.12.4"
+  VERSION = "1.12.5"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.12.5 - Ajuestes na diretiva de menu. Retirada animação.
 # 1.12.4 - Inclusão de novo loading.svg
 # 1.12.3 - Correção do autocomplete
 # 1.12.2 - Inclusão do ico.svg
