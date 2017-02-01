@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.12.7"
+  VERSION = "1.12.8"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.12.8 - Por questão de acessibilidade o conteúdo do input de arquivo só some em tabela se ele tiver o parâmetro upload-file-name do contrário ele iria sumir de todos os casos anteriores. Isso também possibilita usar o input padrão.
 # 1.12.7 - Formatação do input de upload de arquivo quando aparece dentro da tabela formulário
 #          Ajustes nas abas para o caso de fazer uso de javascript ao invés de checkbox.
 # 1.12.6 - Igual a anterior, fiz errado na hora de gerar a tag
