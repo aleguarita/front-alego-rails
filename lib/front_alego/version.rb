@@ -1,9 +1,11 @@
 module FrontAlego
-  VERSION = "1.12.5"
+  VERSION = "1.12.6"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.12.6 - Formatação do input de upload de arquivo quando aparece dentro da tabela formulário
+#          Ajustes nas abas para o caso de fazer uso de javascript ao invés de checkbox.
 # 1.12.5 - Ajuestes na diretiva de menu. Retirada animação.
 # 1.12.4 - Inclusão de novo loading.svg
 # 1.12.3 - Correção do autocomplete
