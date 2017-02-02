@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.12.9"
+  VERSION = "1.13.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.13.0 - Criação da classe .elipse para links e textos que excedem o limite da largura
 # 1.12.9 - Correção do input file
 # 1.12.8 - Por questão de acessibilidade o conteúdo do input de arquivo só some em tabela se ele tiver o parâmetro upload-file-name do contrário ele iria sumir de todos os casos anteriores. Isso também possibilita usar o input padrão.
 # 1.12.7 - Formatação do input de upload de arquivo quando aparece dentro da tabela formulário
