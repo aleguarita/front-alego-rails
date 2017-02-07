@@ -4,11 +4,13 @@
 // -----------------------------------------------------------------------------
 // toaster.scss
 // Criado em: 03/02/2017
+// Alterado em: 07/02/2017
 // -----------------------------------------------------------------------------
 // Notificações do sistema. Aparecendo de baixo.
 // Faz uso da biblioteca toastr: https://github.com/Foxandxss/angular-toastr
 // -----------------------------------------------------------------------------
 // Changelog
+// 07/02/2017 | Correção da condicional
 // 03/02/2017 | Criado o arquivo
 // =============================================================================
 
@@ -154,7 +156,7 @@ $tipos-toaster: (
 // CLASSES | .toast montado
 // =============================================================================
 @if index($uso-classes, toaster) {
-	@if $toaster-biblioteca != toastr {
+	@if $toaster-biblioteca == toastr {
 
 		#toast-container {
 			@include toaster($toaster-tipo);

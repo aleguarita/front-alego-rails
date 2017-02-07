@@ -170,35 +170,35 @@ $tipos-toaster: (
 // =============================================================================
 @if index($uso-classes, toaster) {
 	@if $toaster-biblioteca != toastr {
-		// .toast {
-		// 	@include toaster($toaster-tipo);
-		//
-		// 	@each $status, $classe in $tipos-toaster {
-		//
-		// 		.#{$status} {
-		// 			@if $toaster-tipo == tipo-1 {
-		// 				background: cor-status(#{$classe}, escuro, 15%);
-		// 			}
-		//
-		// 			@else if $toaster-tipo == tipo-2 {
-		// 				color: cor-status(#{$classe}, escuro, 25%);
-		// 			}
-		//
-		// 			.close {
-		// 				color: cor-status($classe);
-		//
-		// 				&:hover {
-		// 					background: cor-status(#{$classe}, escuro, 25%);
-		// 					color: cor(texto, claro);
-		// 				}
-		//
-		// 			}
-		//
-		// 		}
-		//
-		// 	}
-		//
-		// }
+		.toast {
+			@include toaster($toaster-tipo);
+
+			@each $status, $classe in $tipos-toaster {
+
+				.#{$status} {
+					@if $toaster-tipo == tipo-1 {
+						background: cor-status(#{$classe}, escuro, 15%);
+					}
+
+					@else if $toaster-tipo == tipo-2 {
+						color: cor-status(#{$classe}, escuro, 25%);
+					}
+
+					.close {
+						color: cor-status($classe);
+
+						&:hover {
+							background: cor-status(#{$classe}, escuro, 25%);
+							color: cor(texto, claro);
+						}
+
+					}
+
+				}
+
+			}
+
+		}
 
 	}
 }
