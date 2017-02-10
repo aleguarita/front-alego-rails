@@ -1,9 +1,13 @@
 module FrontAlego
-  VERSION = "1.14.1"
+  VERSION = "1.14.2"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.14.2 - Reestruturação das pastas de JS
+#          Ajuste na tabela mutante: agora aceita formatar sem o data-title
+#          Acréscimo de obrigatório em campo de arquivo
+#          Campo de busca na diretiva da barra de ferramentas agora é <input type="search">
 # 1.14.1 - Correção no toaster para sistemas que ainda usam o toaster antigo
 # 1.14.0 - Novo toaster
 # 1.13.1 - Acrescentando o botão voltar a directive header [PRECISA DE FORMATAÇÃO]
