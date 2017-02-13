@@ -1,9 +1,11 @@
 module FrontAlego
-  VERSION = "1.14.3"
+  VERSION = "1.14.4"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.14.4 - Correção menor no datepicker
+#          Criação de variável que determina o fundo dos campos do formulário ($form-fundo-campos)
 # 1.14.3 - Ajuste na tabela mutante: agora aceita formatar sem o data-title
 #          Acréscimo de obrigatório em campo de arquivo
 #          Campo de busca na diretiva da barra de ferramentas agora é <input type="search">
