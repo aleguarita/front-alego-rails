@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.14.4"
+  VERSION = "1.15.0"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.15.0 - Eliminação do Bourbon
 # 1.14.4 - Correção menor no datepicker
 #          Criação de variável que determina o fundo dos campos do formulário ($form-fundo-campos)
 # 1.14.3 - Ajuste na tabela mutante: agora aceita formatar sem o data-title
