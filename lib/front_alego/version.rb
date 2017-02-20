@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.15.0"
+  VERSION = "1.15.1"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.15.1 - Reestruturação da pasta de arquivos (precisa redefenir o front-alego.scss, mas não quebra se não fizer)
 # 1.15.0 - Eliminação do Bourbon
 # 1.14.4 - Correção menor no datepicker
 #          Criação de variável que determina o fundo dos campos do formulário ($form-fundo-campos)
