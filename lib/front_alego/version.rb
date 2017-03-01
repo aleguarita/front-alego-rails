@@ -1,9 +1,10 @@
 module FrontAlego
-  VERSION = "1.15.1"
+  VERSION = "1.15.2"
 end
 # ==============================================================================
 # CHANGELOG
 # ==============================================================================
+# 1.15.2 - Correção para que a GEM funcionasse em versões anteriores à 2.0 do Rails
 # 1.15.1 - Reestruturação da pasta de arquivos (precisa redefenir o front-alego.scss, mas não quebra se não fizer)
 # 1.15.0 - Eliminação do Bourbon
 # 1.14.4 - Correção menor no datepicker
